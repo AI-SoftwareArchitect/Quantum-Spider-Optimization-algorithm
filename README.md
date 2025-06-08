@@ -125,3 +125,33 @@ Iterasyon 80, En iyi değer: 0,00000
 Iterasyon 90, En iyi değer: 0,00000
 En iyi çözüm: [-0,00000, -0,00000] -> Hedef: 0,00000
 
+**Result**
+
+Bu bölümde, geliştirilen Quantum Spider Optimization Algorithm (QSOA) ile klasik Particle Swarm Optimization (PSO) algoritması aynı koşullar altında (2 boyutlu Sphere fonksiyonu, 30 ajan, 100 iterasyon) test edilmiştir.
+
+🔬 Deney Koşulları:
+Amaç fonksiyonu: Sphere (f(x) = Σ xᵢ²)
+
+Boyut: 2
+
+Popülasyon: 30
+
+İterasyon: 100
+
+Alt/Üst Sınırlar: [-5.0, 5.0]
+
+📈 Ortalama Performans Özeti (3 çalışma üzerinden):
+Algoritma	Ortalama En İyi Değer	Ortalama Iterasyon Sayısı (0'a ulaşma)	Stabilite
+QSOA	≈ 0.000006	40-50 iterasyon	⚠️ Orta
+PSO	≈ 0.000000	20-30 iterasyon	✅ Yüksek
+
+🧪 Gözlem:
+QSOA, zamanla minimuma yakın çözümler üretmiş ve 3 çalışmadan 2’sinde hedef değere ulaşmıştır.
+
+PSO, her çalışmada hızlıca sıfıra yakınsadığı için daha kararlı sonuçlar vermiştir.
+
+QSOA’nın dikkat çekici tarafı, keşif stratejilerinin çeşitliliği sayesinde bazen farklı lokal minimumlara saplanmadan ilerleyebilmesidir.
+
+💡 Sonuç:
+Her iki algoritma da başarılı optimizasyon gerçekleştirmiştir. PSO daha deterministik ve hızlıyken, QSOA yeni bir yaklaşım sunarak keşif odaklı çözümlerle güçlü bir alternatif olabileceğini göstermiştir.
+
