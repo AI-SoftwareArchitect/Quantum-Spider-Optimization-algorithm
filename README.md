@@ -43,3 +43,85 @@ Each agent (spider) maintains a **quantum amplitude** per dimension, representin
    Using the quantum amplitude, the spider's position is computed as:
    ```java
    position = lowerBound + amplitude * (upperBound - lowerBound);
+
+** Test Results **
+QSOA:
+1:
+Iterasyon 0, En iyi değer: 0,02798
+Iterasyon 10, En iyi değer: 0,00346
+Iterasyon 20, En iyi değer: 0,00182
+Iterasyon 30, En iyi değer: 0,00023
+Iterasyon 40, En iyi değer: 0,00000
+Iterasyon 50, En iyi değer: 0,00000
+Iterasyon 60, En iyi değer: 0,00000
+Iterasyon 70, En iyi değer: 0,00000
+Iterasyon 80, En iyi değer: 0,00000
+Iterasyon 90, En iyi değer: 0,00000
+En iyi çözüm: [0,00069, -0,00102] -> Hedef: 0,00000
+
+2:
+Iterasyon 0, En iyi değer: 0,20109
+Iterasyon 10, En iyi değer: 0,00183
+Iterasyon 20, En iyi değer: 0,00183
+Iterasyon 30, En iyi değer: 0,00004
+Iterasyon 40, En iyi değer: 0,00001
+Iterasyon 50, En iyi değer: 0,00001
+Iterasyon 60, En iyi değer: 0,00001
+Iterasyon 70, En iyi değer: 0,00001
+Iterasyon 80, En iyi değer: 0,00001
+Iterasyon 90, En iyi değer: 0,00001
+En iyi çözüm: [-0,00224, 0,00074] -> Hedef: 0,00001
+
+3: 
+Iterasyon 0, En iyi değer: 0,52696
+Iterasyon 10, En iyi değer: 0,10718
+Iterasyon 20, En iyi değer: 0,00216
+Iterasyon 30, En iyi değer: 0,00006
+Iterasyon 40, En iyi değer: 0,00001
+Iterasyon 50, En iyi değer: 0,00001
+Iterasyon 60, En iyi değer: 0,00001
+Iterasyon 70, En iyi değer: 0,00001
+Iterasyon 80, En iyi değer: 0,00001
+Iterasyon 90, En iyi değer: 0,00001
+En iyi çözüm: [0,00237, -0,00107] -> Hedef: 0,00001
+
+PSO:
+1:
+Iterasyon 0, En iyi değer: 0,03117
+Iterasyon 10, En iyi değer: 0,00012
+Iterasyon 20, En iyi değer: 0,00000
+Iterasyon 30, En iyi değer: 0,00000
+Iterasyon 40, En iyi değer: 0,00000
+Iterasyon 50, En iyi değer: 0,00000
+Iterasyon 60, En iyi değer: 0,00000
+Iterasyon 70, En iyi değer: 0,00000
+Iterasyon 80, En iyi değer: 0,00000
+Iterasyon 90, En iyi değer: 0,00000
+En iyi çözüm: [-0,00000, 0,00000] -> Hedef: 0,00000
+
+2:
+Iterasyon 0, En iyi değer: 0,20806
+Iterasyon 10, En iyi değer: 0,00173
+Iterasyon 20, En iyi değer: 0,00001
+Iterasyon 30, En iyi değer: 0,00000
+Iterasyon 40, En iyi değer: 0,00000
+Iterasyon 50, En iyi değer: 0,00000
+Iterasyon 60, En iyi değer: 0,00000
+Iterasyon 70, En iyi değer: 0,00000
+Iterasyon 80, En iyi değer: 0,00000
+Iterasyon 90, En iyi değer: 0,00000
+En iyi çözüm: [0,00000, 0,00000] -> Hedef: 0,00000
+
+3:
+Iterasyon 0, En iyi değer: 0,04776
+Iterasyon 10, En iyi değer: 0,00258
+Iterasyon 20, En iyi değer: 0,00000
+Iterasyon 30, En iyi değer: 0,00000
+Iterasyon 40, En iyi değer: 0,00000
+Iterasyon 50, En iyi değer: 0,00000
+Iterasyon 60, En iyi değer: 0,00000
+Iterasyon 70, En iyi değer: 0,00000
+Iterasyon 80, En iyi değer: 0,00000
+Iterasyon 90, En iyi değer: 0,00000
+En iyi çözüm: [-0,00000, -0,00000] -> Hedef: 0,00000
+
