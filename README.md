@@ -1,5 +1,5 @@
 # Quantum-Spider-Optimization-algorithm
-I have inveted a optimization algorithm , and implemented with java.
+I have invented a optimization algorithm , and implemented with java.
 # Quantum Spider Optimization Algorithm (QSOA)
 
 >  A novel quantum-inspired, bio-quantum hybrid optimizer inspired by spider web behavior and qubit superposition.
